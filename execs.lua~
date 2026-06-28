@@ -1,0 +1,13 @@
+-- Start Up Application and Programs --
+hl.on("hyprland.start", function ()
+
+	-- Bar/Monitor_Check, Wallpaper --
+	hl.exec_cmd("$HOME/bin/scripts/monitor-quickplug.sh")
+	hl.exec_cmd("awww-daemon")
+	
+	-- Core Components --
+	hl.exec_cmd("hypridle")
+	hl.exec_cmd("nm-applet &")	
+	hl.exec_cmd("systemctl --user enable --now  hyprpolkitagent.service")
+end)
+
