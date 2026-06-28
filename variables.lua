@@ -3,9 +3,9 @@
  
 browser = "firefox"
 filemanager = "thunar"
-volumemixer = "pavucontrol-qt"
+volumemixer = "pavucontrol"
 terminal = "kitty"
-launcher = "~/bin/scripts/smartrofi.sh"
+launcher = "rofi"
 lock = "hyprlock"
 
 -- ---- Defining Scripts ---- --
