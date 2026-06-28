@@ -2,18 +2,10 @@
 -- ---- Monitors ---- --
 
 hl.monitor({
-	output = "",
+	output = "eDP-1",
 	mode = "preferred",
-	position = "2217x1440",
+	position = "0x0",
 	scale = 1
-})
-
-hl.monitor({
-	output = "DP-3",
-	mode = "2560x1440@144",
-	position = "1920x0",
-	scale = 1,
-	bitdepth = 10
 })
 
 hl.config({
@@ -34,7 +26,7 @@ hl.config({
     },
 
     decoration = {
-        rounding       = 8,
+        rounding       = 12,
         rounding_power = 1,
 
         active_opacity   = 1.0,
