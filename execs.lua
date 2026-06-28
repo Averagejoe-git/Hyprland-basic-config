@@ -2,7 +2,6 @@
 hl.on("hyprland.start", function ()
 
 	-- Bar/Monitor_Check, Wallpaper --
-	hl.exec_cmd("$HOME/bin/scripts/monitor-quickplug.sh")
 	hl.exec_cmd("awww-daemon")
 	
 	-- Core Components --
